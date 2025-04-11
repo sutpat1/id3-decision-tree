@@ -93,7 +93,7 @@ The datasets should be structured as follows:
 
 Example:
 
-`python feature1 feature2 feature3 class
+`feature1 feature2 feature3 class
 0 1 0 1
 1 0 1 0
 2 1 0 1`
@@ -102,7 +102,7 @@ Example:
 
 ## 📋 Output Example
 
-`python feature3 = 0 : 1
+`feature3 = 0 : 1
 feature3 = 1 :
 | feature1 = 0 : 0
 | feature1 = 1 : 1
