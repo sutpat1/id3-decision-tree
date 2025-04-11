@@ -93,22 +93,22 @@ The datasets should be structured as follows:
 
 Example:
 
-`feature1 feature2 feature3 class
-0 1 0 1
-1 0 1 0
-2 1 0 1`
+`feature1 feature2 feature3 class`
+`0 1 0 1`
+`1 0 1 0`
+`2 1 0 1`
 
 ---
 
 ## 📋 Output Example
 
-`feature3 = 0 : 1
-feature3 = 1 :
-| feature1 = 0 : 0
-| feature1 = 1 : 1
-| feature1 = 2 : 0
-Accuracy on training set (800 instances): 85.5%
-Accuracy on test set (200 instances): 83.2%`
+`feature3 = 0 : 1`
+`feature3 = 1 :`
+`| feature1 = 0 : 0`
+`| feature1 = 1 : 1`
+`| feature1 = 2 : 0`
+`Accuracy on training set (800 instances): 85.5%`
+`Accuracy on test set (200 instances): 83.2%`
 
 ---
 
