@@ -93,14 +93,16 @@ The datasets should be structured as follows:
 
 Example:
 
-<pre> ``` feature1 feature2 feature3 class 0 1 0 1 1 0 1 0 2 1 0 1 ``` </pre>
+<pre lang="python">feature1 feature2 feature3 class 
+0 1 0 1 
+1 0 1 0 
+2 1 0 1 </pre>
 
 ---
 
 ## 📋 Output Example
 
-<pre lang="python"> 
-feature3 = 0 : 1 
+<pre lang="python">feature3 = 0 : 1 
 feature3 = 1 : 
 | feature1 = 0 : 0 
 | feature1 = 1 : 1 
