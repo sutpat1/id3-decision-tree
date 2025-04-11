@@ -99,8 +99,8 @@ Example:
 
 ## 📋 Output Example
 
-<pre> 
-`feature3 = 0 : 1 
+<pre lang="python"> 
+feature3 = 0 : 1 
 feature3 = 1 : 
 | feature1 = 0 : 0 
 | feature1 = 1 : 1 
@@ -108,7 +108,7 @@ feature3 = 1 :
 
 Accuracy on training set (800 instances): 85.5% 
    
-Accuracy on test set (200 instances): 83.2%` </pre>
+Accuracy on test set (200 instances): 83.2% </pre>
 
 ---
 
